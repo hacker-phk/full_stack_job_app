@@ -1,44 +1,46 @@
 
 
-# 🌟 Employee Management App
+---
+
+# Employee Management App
 
 A full-stack Employee Management Application with a secure login system, employee list management, and data editing capabilities. This app has a React-powered frontend and a Node.js/Express backend, with MongoDB for database storage.
 
-## 🚀 Features
+## Features
 
-- **🔐 User Authentication**: Secure login and registration with encrypted passwords.
-- **👥 Employee Management**: Easily view, add, and edit employee data.
-- **🛡️ Secure Sessions**: Uses JWT and cookies for secure session management.
+- **User Authentication**: Secure login and registration with encrypted passwords.
+- **Employee Management**: Easily view, add, and edit employee data.
+- **Secure Sessions**: Uses JWT and cookies for secure session management.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Frontend
 
-- **Vite** ⚡: Fast, opinionated frontend tool.
-- **React** ⚛️: Component-based UI library.
-- **Tailwind CSS** 🎨: Utility-first CSS framework.
-- **ShadCN** 🌈: Custom component library for enhanced UI.
-- **Axios** 🌐: HTTP client for API communication.
-- **Context API** 🌐: State management.
-- **js-cookie** 🍪: Cookie handling library.
-- **Local Storage** 📦: Persistent storage for user sessions.
+- **Vite**: Fast, opinionated frontend tool.
+- **React**: Component-based UI library.
+- **Tailwind CSS**: Utility-first CSS framework.
+- **ShadCN**: Custom component library for enhanced UI.
+- **Axios**: HTTP client for API communication.
+- **Context API**: State management.
+- **js-cookie**: Cookie handling library.
+- **Local Storage**: Persistent storage for user sessions.
 
 ### Backend
 
-- **Node.js** 🌐: JavaScript runtime.
-- **Express** 🚀: Web framework for Node.js.
-- **Axios** 🔗: Server-side HTTP requests.
-- **Bcrypt** 🔒: Password hashing for authentication.
-- **Mongoose** 🗄️: MongoDB object modeling.
-- **JWT** 🔐: JSON Web Token for user sessions.
-- **cookie-parser** 🍪: Middleware for parsing cookies.
+- **Node.js**: JavaScript runtime.
+- **Express**: Web framework for Node.js.
+- **Axios**: Server-side HTTP requests.
+- **Bcrypt**: Password hashing for authentication.
+- **Mongoose**: MongoDB object modeling.
+- **JWT**: JSON Web Token for user sessions.
+- **cookie-parser**: Middleware for parsing cookies.
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Node.js** (>= v14)
 - **MongoDB** (local or MongoDB Atlas)
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### 1. Clone the Repository
 ```bash
@@ -83,13 +85,14 @@ npm run dev
 ```
 The frontend server will start at `http://localhost:5173`.
 
-## 🖥️ Usage
+## Usage
 
-1. **Open the app** at `http://localhost:5173`.
-2. **Register/Login** to manage employee data.
+1. Open the app at `http://localhost:5173`.
+2. Register/Login to manage employee data.
 3. Navigate to **Employee List** for viewing, adding, or editing employee details.
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
 
+--- 
