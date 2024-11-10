@@ -1,6 +1,4 @@
-Here’s the `README.md` ready for you to copy:
 
----
 
 # Employee Management App
 
