@@ -40,6 +40,7 @@ function EmployeeList() {
   );
 
   if (loading) return <p>Loading...</p>;
+  if(!data) return <p>No data</p>;
 
   return (
     <div className='p-5'>
@@ -89,6 +90,7 @@ function EmployeeList() {
           </tr>
         </thead>
         <tbody>
+          {filteredEmployees && filteredEmployees.length === 0 && <tr><td colSpan="10" className="border p-2 text-center min-h-screen h-[400px]">No employees found</td></tr>}
           {filteredEmployees && filteredEmployees.map((employee) => (
             <tr key={employee._id}>
               <td className="border p-2">{employee._id}</td>
